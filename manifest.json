@@ -1,0 +1,12 @@
+{
+  "name": "Jisho.org TTS button",
+  "description": "TTS all the results!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://jisho.org/search/*","https://jisho.org/word/*"],
+      "js": ["add-tts.js"]
+    }
+  ]
+}
